@@ -19,12 +19,14 @@ body {
   height: 100vh;
   font-family: 'Kumbh Sans', sans-serif;
   background-color: var(--dark-cyan);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .background {
   position: absolute;
   width: 100%;
   height: 100vh;
-  display: flex;  
+  display: flex;
 }
 .background img {
   width: 50%;
